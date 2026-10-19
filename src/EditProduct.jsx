@@ -128,7 +128,7 @@ export default function EditProduct({ product, onClose, onSave }) {
           </div>
 
           <p className="text-center text-[11px] text-zinc-400">
-            Instant UI update via <span className="font-mono bg-zinc-100 px-1.5 py-0.5 rounded border">setProducts([...products, new])</span>
+            Instant UI update via. 
           </p>
         </div>
       </div>

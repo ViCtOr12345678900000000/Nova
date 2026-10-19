@@ -34,7 +34,7 @@ export default function App(){
   }
 
   return(
-    <div className="bg-[#fcfaf7] min-h-screen">
+    <div className=" min-h-screen md:p-5">
       <Navbar 
         searchQuery={searchQuery} 
         setSearchQuery={setSearchQuery} 

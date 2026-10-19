@@ -52,7 +52,7 @@ export default function AddProduct({ onClose, onAdd }) {
         <button onClick={onClose} className="absolute right-5 top-5 w-8 h-8 rounded-full bg-zinc-100 hover:bg-zinc-200 grid place-items-center">✕</button>
 
         <h2 className="font-serif text-[22px] font-bold">Add new product</h2>
-        <p className="text-[13px] text-zinc-500 mt-1 mb-6">Create a new inventory item — appears instantly via .map().</p>
+        <p className="text-[13px] text-zinc-500 mt-1 mb-6">Create a new inventory item.</p>
 
         <div className="grid gap-5">
           <div>
@@ -68,7 +68,7 @@ export default function AddProduct({ onClose, onAdd }) {
           <div className="grid grid-cols-2 gap-4">
             <div>
               <label className="text-[11px] tracking-[0.12em] text-zinc-400 font-semibold">CATEGORY</label>
-              <select value={form.category} onChange={(e) => setForm({ ...form, category: e.target.value })} className="mt-2 w-full h-11 px-4 rounded-full bg-[#f8f5f2] border border-zinc-200 text-[14px] focus:outline-none focus:border-black focus:bg-white">
+              <select value={form.category} onChange={(e) => setForm({ ...form, category: e.target.value })} className="mt-2 w-full h-11 px-4 rounded-full mr-[50px] bg-[#f8f5f2] border border-zinc-200 text-[14px] focus:outline-none focus:border-black focus:bg-white">
                 <option>Apparel</option>
                 <option>Accessories</option>
                 <option>Home</option>
@@ -100,7 +100,7 @@ export default function AddProduct({ onClose, onAdd }) {
           </div>
 
           <p className="text-center text-[11px] text-zinc-400">
-            Instant UI update via <span className="font-mono bg-zinc-100 px-1.5 py-0.5 rounded border">setProducts([...products, new])</span>
+            Instant UI update.
           </p>
         </div>
       </div>
