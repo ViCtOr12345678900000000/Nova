@@ -33,7 +33,7 @@ export default function StatCards({ products = [] }) {
 
   const statsData = [
     { id: 'total', label: 'TOTAL PRODUCTS', value: total, sub: `${total} showing`, icon: '✔', tone: 'neutral' },
-    { id: 'value', label: 'INVENTORY VALUE', value: `$${inventoryValue.toLocaleString()}`, sub: 'price × stock', icon: '$', tone: 'neutral' },
+    { id: 'value', label: 'INVENTORY VALUE', value: `₦${inventoryValue.toLocaleString()}`, sub: 'price × stock', icon: '$', tone: 'neutral' },
     { id: 'low', label: 'LOW STOCK ALERTS', value: lowStock, sub: 'Needs reorder', icon: '〽', tone: 'warning' },
     { id: 'out', label: 'OUT OF STOCK', value: outOfStock, sub: 'Urgent', icon: '!', tone: 'danger' },
   ];
