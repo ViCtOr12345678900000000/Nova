@@ -68,7 +68,7 @@ export default function AddProduct({ onClose, onAdd }) {
           <div className="grid grid-cols-2 gap-4">
             <div>
               <label className="text-[11px] tracking-[0.12em] text-zinc-400 font-semibold">CATEGORY</label>
-              <select value={form.category} onChange={(e) => setForm({ ...form, category: e.target.value })} className="mt-2 w-full h-11 px-4 rounded-full mr-[50px] bg-[#f8f5f2] border border-zinc-200 text-[14px] focus:outline-none focus:border-black focus:bg-white">
+              <select value={form.category} onChange={(e) => setForm({ ...form, category: e.target.value })} className="mt-2 w-full h-11 px-4 rounded-full  bg-[#f8f5f2] border border-zinc-200 text-[14px] focus:outline-none focus:border-black focus:bg-white">
                 <option>Apparel</option>
                 <option>Accessories</option>
                 <option>Home</option>

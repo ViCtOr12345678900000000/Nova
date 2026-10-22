@@ -14,7 +14,7 @@ function StatCard({ label, value, sub, icon, tone }) {
         </span>
       </div>
       <div>
-        <p className="text-[28px]  font-bold leading-none tracking-tight text-olive-500 font-serif">{value}</p>
+        <p className="text-[28px]  font-extralight leading-none tracking-tight text-olive-500 font-serif">{value}</p>
         <p className="text-[15px] text-black mt-2">{sub}</p>
       </div>
     </div>
